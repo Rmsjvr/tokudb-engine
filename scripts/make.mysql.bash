@@ -6,7 +6,7 @@ set -u
 function usage() {
     echo "make mysql with the tokudb storage engine from github repo's"
     echo "--git_tag=$git_tag"
-    echo "--mysqlbuild=$mysqlbuild"
+    echo "--mysqlbuild1$mysqlbuild"
     echo "--mysql=$mysql"
     echo "--tokudb_version=$tokudb_version"
     echo "--mysql_tree=$mysql_tree --tokudbengine_tree=$tokudbengine_tree --ftindex_tree=$ftindex_tree --jemalloc_tree=$jemalloc_tree --backup_tree=$backup_tree"
